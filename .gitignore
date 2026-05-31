@@ -1,0 +1,60 @@
+# Data files (too large for GitHub)
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.h5
+*.joblib
+*.tif
+
+# Allow small sample data
+!data/sample/*.csv
+
+# Model files
+models/*.pkl
+*.model
+
+# Output files
+outputs/
+forecast_log.csv
+*.png
+*.jpg
+!docs/*.png
+
+# Earth Engine cache
+.config/earthengine/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
